@@ -1,13 +1,169 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* .container {
+  margin: 5rem auto;
+  /* max-width: 20rem; */
+/* width: 80%; */
+/* display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+*/
+
+button {
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  margin: 0 2rem;
+  background-color: teal;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+}
+
+button:last-child {
+  background-color: red;
+  padding: 0.8rem 2rem;
+  margin-left: 0;
+  font-size: 1rem;
+}
+
+span {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* FIRST CALCULATOR DESIGN STYLES */
+
+/* table {
+  /* width: 40rem; 
+  margin: 0 auto;
+  color: #fff;
+}
+
+th {
+  background-color: rgb(19, 19, 19);
+  height: 5rem;
+  border-radius: 5px;
+  padding: 0 0.5rem;
+  margin: 0.5rem 0;
+  text-align: end;
+  font-size: 1.5rem;
+}
+
+td {
+  background-color: rgb(68, 68, 68);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  width: 3rem;
+  border-radius: 5px;
+  padding: 0.3rem 0.5rem;
+  text-align: center;
+} 
+
+.equal {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgb(214, 90, 32);
+}
+
+tr:nth-child(1) > td,
+tr > td:last-child {
+  background-color: rgb(214, 90, 32);
+}
+*/
+
+/* /////////////////////////////////////////// */
+/* SECOND CALCULATOR DESIGN STYLES */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: roboto, sans-serif;
+}
+
+/* Main body styles */
+.container {
+  width: 75%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.main-content {
+  width: 60%;
+  margin: 2rem auto;
+  border: 1px solid slategray;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0px 4px 20px rgba(90, 90, 90, 0.9);
+  font-size: 1.125rem;
+}
+
+/* Table styles */
+table {
+  margin: auto;
+  width: 50%;
+  height: 15rem;
+  text-align: center;
+  border-spacing: 8px;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(10, 10, 10, 0.2);
+}
+
+thead {
+  text-align: right;
+  height: 3rem;
+}
+
+th,
+td {
+  margin: 0.625rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.3rem;
+  cursor: pointer;
+}
+
+th {
+  background: #a9dbdb;
+  height: 4rem;
+  font-size: 1.5rem;
+}
+
+td {
+  width: 3rem;
+}
+
+tr:nth-child(1) > td,
+tr > td:last-child {
+  background: lightgray;
+}
+
+.equal {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+#ac {
+  background: orange;
+}
+
+#equal {
+  background: seagreen;
 }
