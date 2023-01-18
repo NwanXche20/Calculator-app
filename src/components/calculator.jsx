@@ -29,14 +29,6 @@ const Calculator = () => {
     }
   }
 
-  // function handleKeyPress(e) {
-  //   console.log("you pressed: ", e.key);
-  //   // if (e == this.innerText) {
-  //   //   console.log(e);
-  //   // } else console.log("nothing");
-  //   // e == this.innerText ? console.log(e) : "nothing";
-  // }
-
   function handleButton(e) {
     if (init === 0) {
       setInit(e.target.innerText);
